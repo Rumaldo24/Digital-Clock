@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reloj Digital Animado</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>
+            <span class="pink">Digital Clock</span>
+            <span class="white">Animation</span>
+        </h1>
+        <div class="clock">
+            <div class="time-unit">
+                <div class="circle">
+                    <svg class="progress-ring">
+                        <circle class="progress-ring__circle hours" r="59" cx="60" cy="60"></circle>
+                    </svg>
+                    <span id="hours">00</span>
+                </div>
+                <span class="label pink">Hours</span>
+            </div>
+            <div class="time-unit">
+                <div class="circle">
+                    <svg class="progress-ring">
+                        <circle class="progress-ring__circle minutes" r="59" cx="60" cy="60"></circle>
+                    </svg>
+                    <span id="minutes">00</span>
+                </div>
+                <span class="label yellow">Minutes</span>
+            </div>
+            <div class="time-unit">
+                <div class="circle">
+                    <svg class="progress-ring">
+                        <circle class="progress-ring__circle seconds" r="59" cx="60" cy="60"></circle>
+                    </svg>
+                    <span id="seconds">00</span>
+                </div>
+                <span class="label green">Seconds</span>
+                <span id="ampm" class="ampm">AM</span>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
