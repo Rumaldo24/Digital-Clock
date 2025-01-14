@@ -43,5 +43,4 @@ Todos los derechos reservados. Este proyecto no está licenciado para uso públi
 Para cualquier duda o consulta, puedes ponerte en contacto con:
 
 - Nombre: Rumaldo
-- Correo: rumaldorv.11@outlook.com
-
+- Correo: <rumaldorv.11@outlook.com>
